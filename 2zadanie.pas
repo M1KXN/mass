@@ -1,26 +1,4 @@
-
-{var
-    m : array[0..9] of integer;
-    i,j, buf: integer;
-begin
-    for i:=0 to 9 do
-    begin
-        m[i] := Random(10) + 1;
-        writeln('m [', i, '] = ', m[i]);
-    end;
-    for i:=0 to 9 do
-    for j:=i+1 to 9 do
-    if m[i] > m[j] then
-    begin
-    buf := m[i];
-    m[i] := m[j];
-    m[j] := buf;
-    end;
-    writeln;
-    for i:= 0 to 9 do
-    writeln('m [', i, '] = ', m[i]);
-end.}
-
+//fgeature-01 change
 const n = 9;
 var
     m : array[0..n] of integer;
