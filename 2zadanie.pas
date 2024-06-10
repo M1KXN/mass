@@ -1,4 +1,4 @@
-//fgeature-01 change
+//feature-01 change
 const n = 9;
 var
     m : array[0..n] of integer;
