@@ -1,4 +1,4 @@
-// 
+
 {var
     m : array[0..9] of integer;
     i,j, buf: integer;
