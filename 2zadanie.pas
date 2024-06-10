@@ -16,7 +16,7 @@ begin
     m[i] := m[j];
     m[j] := buf;
     end;
-    writeln;    
+    writeln;
     for i:= 0 to 9 do
     writeln('m [', i, '] = ', m[i]);
 end.}
@@ -45,7 +45,7 @@ begin
                 end;
         end;
 
-writeln;
+    writeln;
     for i:= 0 to 9 do
         writeln('m [', i, '] = ', m[i]);
 end.
